@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+#for-images{
+    margin-left: 50px;
+    
+
+}
+label ~img{
+    width:200px ;
+    display: none;
+    height: auto;
+}
+#swithc:checked~img{
+    display: block;
+    
+
+}
+label +img+img+img{
+    border-radius: 25px  ;
+    
+}
+q [title]{color: bisque;}
+q [title='Цитата 2'] {color: aqua;}
+q [title='Цитата 3'] {color: aquamarine;}
+a[href^='https'    ]{color: blueviolet;}
+a[href$='.com'  ]{color: brown;}
+h2[class~='Bigtext'    ]{background: blue;color: blueviolet; padding:3px ;width:200px ;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px ; 
+    text-align: center;
+}
+.text4{text-align: justify;}
+.text3{text-align: center;}
+.text2{text-align: left;}
+.text1{text-align: right;}
+p[class|='text1']{color: blanchedalmond;}
+p[class|='text2']{color: blanchedalmond;}
+p[class|='text3']{color: blanchedalmond;}
+p[class|='text4']{color: blanchedalmond;}
+.Bigtext.text1{color: rgb(11, 65, 212);}#check{color: orange;}
+.lab{color: rgb(179, 7, 36)!important;}
+.show{color: antiquewhite;}
+label#check.lab.show{color:grey ;}
+#check:checked~.Bigtext>.lab{color:red ;}

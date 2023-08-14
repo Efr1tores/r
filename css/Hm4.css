@@ -1,0 +1,19 @@
+.clark{
+
+    position: relative;
+    background-color: grey;
+    width: 1300px;
+    height: 500px;
+     ;
+}
+.clark img{position:absolute;
+bottom: 15px;
+right: 15px;
+width: 250px;
+
+}
+
+
+
+
+

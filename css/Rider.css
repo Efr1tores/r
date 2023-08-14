@@ -1,0 +1,46 @@
+#form-images{margin-left: 50px;
+margin-bottom:80px; 
+
+
+}
+.Skills{min-height: 500px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: baseline;
+
+
+
+}
+div[class^='Skills']{flex-basis: 250px;}
+.Skill1{text-align: center;}
+.skillimg{width: 45px;
+height: 50px;
+}
+.Skill2{padding: 50px 10px 10px 30px ;
+background-color: grey;
+background-image: url('../Image/Skills/skill_icon.png');
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: 80% 10px;
+border-top-right-radius:30% ;
+border-top-left-radius: 30%;
+}
+.Skill2>h3{text-align: right ;color: gold;}
+.Skill2>p{padding-top: 20px ;
+text-align: justify;
+border-top: 3px solid red;
+color: blueviolet;
+
+}
+.Skill3{height: 300px;
+align-self: center;
+
+}
+
+
+.Skill3 img{width: 100%;
+border-bottom-left-radius:30% ;
+border-bottom-right-radius:30% ;
+}
