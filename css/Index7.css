@@ -1,0 +1,27 @@
+.table-rating{width: 90%;
+margin: 50px auto;
+color: crimson;
+
+}
+.table-rating th{border: 3px solid palegoldenrod;
+text-align: center;
+padding: 3px ;
+
+}
+.Tableimg{width: 50px;}
+.table-rating tbody{background: aquamarine;
+cursor: pointer;
+
+}
+.table-rating thead, .table-rating tfoot, .table-rating tr:hover{background: purple;}
+.table-rating caption{width: 100%;
+    height: 100px;
+    background-image: url('../Image/завантаження\ \(2\).jpg');
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: purple;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+
+}
