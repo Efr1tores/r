@@ -11,6 +11,37 @@
     <link rel="stylesheet" href="css/Index7.css">
 </head>
 <body>
+  <!--
+
+<!--animation: animBG 5s infinite;--!>eyframes animTextTop {
+    10% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    80% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+}
+
+@keyframes animTextBottom {
+    30% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    40%{
+        transform: translateY(-10px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    60% {
+        opacity: 0;
+    }
+}
+
+
     <section>
         <table class='table table-rating caption-top'>
         <caption>
@@ -39,6 +70,7 @@
                     <th>3360</th>
                     <th>4200</th>
                     <th>5040</th>
+                    <th rowspan="5"></th>
                   </tr>
                   <tr>
                     <th>&#8544</th>
@@ -69,7 +101,7 @@
                     <th>3456</th>
                     <th>3456</th>
                     <th>8675</th>
-                   
+                    
                 </tr>
                   <tr>
                     <th>&#8547</th>
@@ -80,6 +112,7 @@
                     <th>8456</th>
                     <th>4567</th>
                     <th>9875</th>
+                    
                   </tr>
                   <tr>
                     <th>&#8548</th>
@@ -89,7 +122,7 @@
                     <th>7654</th>
                     <th>8765</th>
                     <th>3456</th>
-                    <th>3456</th>
+                    <th colspan="2">3456</th>
                   </tr>
                   <tfoot>
                   <tr>
@@ -101,11 +134,86 @@
                     <th>Legend</th>
                     <th>Ansient</th>
                     <th>Divane</th>
+                  <th></th>
                 </tfoot>
                 </tr>
             </tbody>
         </table>
     </section>
+  -->
+    <form class="form-pol" action="" autocomplete method="get" name="form-pol">
+    <h2>Заповніть форму </h2>
+     <b>Введіть вай емейл</b>
+    <input type="email" name="email" required>
+    <br>
+    <b>Введіть ваше ім'я</b>
+    <input type="text" name="username" required>
+    <br>
+    <b>Введіть пароль</b>
+    <input type="password" name="passwor" required>
+    <br>
+    <b>Введіть ваш вік</b>
+    <input type="number" name="number" required>
+    <br>
+    <b>Введіть ваше резюме</b>
+    <input type="file" name="file" required>
+    <br>
+    <b>Введіть колір</b>
+    <input type="color" name="color">
+    <br>
+    <b>Введіть дату</b>
+    <input type="date" name="date" required>
+    <br>
     
+    <p class="fild">
+      <b>Виберіть направлення</b>
+      <label for="Frontend"> Frontend     
+      </label>
+      
+      <input type="checkbox" name="check" id="Frontend">
+      <label for="Backend" > Backand</label>
+      <input type="checkbox" name="check" id="Backend">
+      <label for="Fullstack">Fullstack</label>
+      <input type="checkbox" name="check" id="Fullstack">
+    </p>
+    <p class="fild">
+      <b>Виберіть тип зайнятості</b>
+      <label for="office">office</label>|
+      <input type="radio" name="rad" id="office">
+      <label for="Remoutli">Remoutli</label>|
+      <input type="radio" name="rad" id="Remoutli">
+      <label for="Almost">Almost</label>      
+      <input type="radio" name="rad" id="Almost">
+    </p>
+    <b>Чому саме ви?</b>
+    <textarea name="Coments" id="" cols="30" rows="10"></textarea>
+    <input type="reset"  name="reset" value="Clear" >
+    <input type="submit" name="submit">
+    <p class="Captha fild"><b>
+     Введіть число з картинки:
+    </b>
+    <br><img src="Image/captcha.jfif" alt="">
+    <input class="Captha_cheak"
+    type="text" 
+    name="Captha"
+     required pattern="6" >
+     <span class="Captha_span">
+       </span>
+     <span class="Captha_folls"> 
+Невірне число 
+     </span>
+  </p>
+
+</form>
+<form class="Tentek" oninput="Resolt.value=(См.value/2.54).toFixed(2)">
+<p>Скільки сантиметрів в дюймі?</p>
+<p>Введіть довжину<input type="number" name="См">  
+</p>
+<p><output name="Resolt">
+0
+</output>
+</p>
+
+</form>
 </body>
 </html>

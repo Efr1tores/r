@@ -25,3 +25,30 @@ cursor: pointer;
     border-top-right-radius: 100%;
 
 }
+.form-pol{width: 850px;
+margin:10px auto ;
+padding: 20px ;
+border-radius: 8 px;
+box-shadow: 8px 8px 7px -1px gray;
+color: rgb(43, 43, 20);
+background: radial-gradient(55% 35%, aquamarine, rgb(66, 66, 156));}
+.form-pol h2{color: rgb(99, 71, 71);
+text-shadow: 8px 8px 7px black ;}
+.fild{display: inline-block;
+margin-right: 30px ;
+}
+.Captha img{width: 50px;}
+.Captha_span{position: relative;}
+.Captha_span::after{position: absolute;
+left: 10px;
+}
+.Captha_cheak:valid+.Captha_span::after{content: url('../Image/123.png');}
+.Captha_cheak:invalid+.Captha_span::after{content: url('../Image/free-icon-telegram-3670070.png');}
+.Captha_fols{color: red;
+margin-left: 30px;
+
+
+}
+.Captha_cheak:valid~.Captha_fols{display: none;
+
+}

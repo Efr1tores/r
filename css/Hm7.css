@@ -1,0 +1,16 @@
+.table-rating{width: 90%;
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    
+    }
+    .table-rating th{border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 3px ;
+    }
+    
+    .Green{background: green;}
+    .Yellow{background:yellow ;}
+    .Orange{background: orange;}
+   
+    
+    
