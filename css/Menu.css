@@ -1,0 +1,141 @@
+ul, ol, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.menu > li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu > li > ol{
+    position: absolute; 
+    padding-left: 0;
+    display: none;
+}
+.menu > li:hover > ol{
+    display: block;
+}
+
+.menu a{
+    display: block;
+    box-sizing: border-box;
+    color: rgb(194, 120, 120);
+    background: #5E81FE;
+    width: 110px;
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 4px;
+    transition: background 0.6s;
+}
+.menu a:hover{
+    background: rgb(45, 14, 104);
+    color: rgb(220, 205, 205)
+}
+/* quicksand-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonds/quicksand-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* quicksand-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../Fonds/quicksand-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* quicksand-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../Fonds/quicksand-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  header{
+    min-height: 80px ;
+    padding-top: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.Headercontent{
+    width: 90%;
+    margin: 0 auto ;
+
+}
+.Logo{
+    width: 26px;
+height: 26px;
+background: #5E81FE;
+border-radius: 100%;
+
+}
+.Logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+.StartedButton{
+    width: 113px;
+    background: #d5e3ff;
+    border-radius: 2px;
+    transition: 0.8s;
+
+}
+.StartedButton a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px 16px;
+    color: #3A79FF;
+}
+.Headercontent, .Headercontent>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+.Sosialemedia a {
+    margin-right: 35px;
+
+}
+.StartedButton:hover{
+    opacity: 0.7;
+}
+.MenuBurger{
+    height: 50px ;
+    width:50px  ;
+    margin-left: 15px ;
+    background-image:url('../Image/3 line.png') ;
+    background-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:980px) {
+    .MenuBurger {
+        display: block;
+    
+    }
+ .MenuNone{
+    display: none;
+ }    
+}
