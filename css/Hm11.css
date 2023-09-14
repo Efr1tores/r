@@ -1,0 +1,133 @@
+.Star1{
+    margin-top: 20px;
+    margin-left: 20px;
+width: 700px;
+height: 700px;
+
+text-align: center;
+background:linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+;
+}
+.Star1{width: 1297px;
+    height: 400px;
+    }
+.Star2{
+    min-height: 450px;
+    padding-top: 90px; 
+    background-color: #5E80FF;
+    background-image: url('..//Group\ 28.1.png'), url('..//Group\ 28.png');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom ;
+}
+
+    /* quicksand-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonds/quicksand-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* quicksand-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../Fonds/quicksand-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* quicksand-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../Fonds/quicksand-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  p{font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;}
+ .p1{font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-family: Quicksand;
+font-size: 48px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Quicksand;
+font-size: 48px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Quicksand;
+font-size: 48px;
+font-weight: 300;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.p2{
+    margin-left: 290px;
+    font-family: Quicksand;
+font-size: 15px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.03em;
+text-align: center;
+width: 712px;
+height: 78px;
+top: 5321px;
+left: 364px;
+
+
+border: 1px solid rgba(223, 226, 239, 1)
+
+}
+.StartedButton{
+   
+    width: 113px;
+    background: #d5e3ff;
+    border-radius: 2px;
+    transition: 0.8s;
+    margin-left: 500px
+   
+}
+.StartedButton a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px 16px;
+    color: #3A79FF;
+    
+
+}
+
+.Sb2{
+   
+    width: 150px;
+    outline: 10px;
+    border-radius: 2px;
+    transition: 0.8s;
+    margin-left: 610px;
+    margin-top: -45px;
+   
+}
+.Sb2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px 16px;
+    color: #ffffff;
+    
+
+}

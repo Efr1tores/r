@@ -139,3 +139,129 @@ border-radius: 100%;
     display: none;
  }    
 }
+.FutureWeb{
+    min-height: 850px;
+    padding: 171px 0px ;
+    
+}
+.FutureContent{
+    width: 761px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.FutureContent>a{
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 10px;
+    color: #3A79FF;
+}
+.FutureContent>h2{
+    margin-bottom: 92px;
+    
+}
+.FutureContent>h2>a{
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3A79FF;
+}
+.Future{
+    display: grid;
+    grid-template-areas: 'o f m s';
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap:67px;
+    margin-bottom: 92px;
+
+
+}
+.Overview{
+    grid-area: o;
+}
+.Files{
+    grid-area: f;
+}
+.Meetingchats{
+    grid-area: m;
+}
+.Saveevents{
+    grid-area: s;
+}
+.FutureIcon{
+    margin-bottom: 33px;
+    
+}
+.Future h5{
+    margin-bottom: 25px;
+}
+.Future h5>a{
+    font-size: 14px;
+    font-weight: bold;
+    color: aqua;
+
+}
+.FutureText>a{
+    font-weight: 600px;
+    font-size: 11px;
+    color: grey;
+}
+.VisualSection1{
+background-image: url('../Image/Peiple.jpg') ;
+
+
+}
+.VisualSection2{
+    background-image: url('../Image/Hearts.jpg') ;
+    padding-top: 100px;
+
+}
+.VisualSection1, .VisualSection2{
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+    
+}
+.Btn{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid red ;
+    background: transparent;
+    overflow: hidden;
+
+
+}
+.Btn>a{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 2rem red;
+
+}
+.Btn::before{
+    position: absolute;
+    content: '' ;
+    top: 80px;
+    left: -70px;
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(0deg, black, white);
+    transform: rotate(15deg); 
+    transition: 0.3s  ;
+
+}
+.Btn:hover::before{
+    top: -70px;
+    left: -70px;
+
+
+}   
