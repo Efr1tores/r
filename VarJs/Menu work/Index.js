@@ -1,11 +1,16 @@
 "use strict"
 const searchIcon=document.getElementById('search-icon');
 const searchInput=document.getElementById('search-input');
-searchIcon.addEventListener('click',(e)=>{e.target.style.display='none';
-searchInput.style.display='block';
-searchInput.focus();
-});
 
+document.documentElement.addEventListener('click',(e)=>{
+ let elem=e.target;
+ if(elem===searchIcon||elem===searchInput){searchIcon.style.display='none'; 
+ searchInput.style.display='block';
+searchInput.focus();}
+ 
+else{searchIcon.style.display='block';
+searchInput.style.display='none';
+}});
 
 
 

@@ -57,7 +57,7 @@ img{
     
     
 }
-.SideMenu{
+.side-menu{
     min-height: 300px;
     background: #2378FC;
 }
@@ -76,7 +76,7 @@ img{
 .color-white{
     color: white;
 }
-.FirstScrean a, .SideMenu a, .Footer a{
+.FirstScrean a, .side-menu a, .Footer a{
     color: white;
     
 }
@@ -175,8 +175,26 @@ img{
 .font-size-14{
     font-size: 14px;
 }
-
-
+.h2{
+    font-size: 30px;
+    
+}
+.side-menu__main{
+    display: flex;
+    justify-content: space-between;
+}
+.link-orange{
+    
+  color: orange !important;
+text-decoration: underline;
+}
+.side-menu__title{
+    margin-bottom: 30px;
+    
+}
+.side-menu__list li{
+    margin-bottom: 15px;
+}
 
 
 
