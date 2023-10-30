@@ -1,11 +1,12 @@
 html{
-    font-size: 16px;}
+    font-size: 16px;
+}
 body{
-    font-size: 1rem;
+    font-size: 1rem; 
 }    
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 ul,ol,li{
@@ -18,11 +19,7 @@ img{
     max-width: 100%;
     
 }
-.conteiner{
-    max-width: 1114px ;
-    width: 95%;
-}
-.wrap{
+.wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,48 +27,27 @@ img{
     background-position: center;
     background-size: cover;
 }
+/* was conteiner  
+must be container*/
+.container{
+    max-width: 1114px ;
+    width: 95%;
+}
+.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: 'Plumb';
+}
 .h1{
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
     
 }
-.h2{
-    font-size: 30px;
-}
-.h3{
-    font-size: 21px;
-    line-height: 130%; 
-}
 .h2,.h3{
     font-weight: 500;
     letter-spacing: -0.01em;
 }
-.FirstScrean{
-    min-height: 800px;
-    background-image: url('../bgc.png');
-    flex-direction:column ;
-    justify-content: space-between;
-    background-attachment: fixed;
-    
-    
-    
-}
-.side-menu{
-    min-height: 300px;
-    background: #2378FC;
-}
-.Event{
-    min-height: 984px;
-    background: #FFC41E;
-}
-.News{
-    min-height: 649px;
-    background: #FAF3E3;
-}
-.Footer{
-    min-height: 476px;
-    background:  #30BCC9;
+.h2{
+    font-size: 30px;
 }
 .color-white{
     color: white;
@@ -80,6 +56,23 @@ img{
     color: white;
     
 }
+.font-size-14{
+    font-size: 14px;
+}
+.link-orange{
+    text-decoration: underline;
+    color: orange !important;
+ 
+  }
+  /***************************************************/
+.FirstScrean{
+    min-height: 800px;
+    flex-direction:column ;
+    justify-content: space-between;
+    background-image: url('../bgc.png');
+    background-attachment: fixed;
+}
+
 .header{
     width: 100%;
     min-height: 90px;   
@@ -105,6 +98,12 @@ img{
     height: 18px;
     
 }
+.header__lang{
+    display: flex;
+    align-items: baseline;
+    
+}
+
 .header__lang-icon{
     margin-right: 11px;
     background-image: url('../Globe.svg');
@@ -121,14 +120,7 @@ img{
     display: none;
 
 }
-.header__lang{
-    display: flex;
-    align-items: baseline;
-    
-}
-.h1,.h2,.h3,.h4,.h5,.h6{
-    font-family: 'Plumb';
-}
+
 .main__head{
     margin-bottom: 35px;
     
@@ -172,39 +164,35 @@ img{
 .main__block-item .h4{
     margin-bottom: 15px;
 }
-.font-size-14{
-    font-size: 14px;
+/**********************************/
+.side-menu {
+    min-height: 426px;
+    background: #2378FC;
 }
-.h2{
-    font-size: 30px;
-    
-}
-.side-menu__main{
+.side-menu__main {
     display: flex;
     justify-content: space-between;
 }
-.link-orange{
-    
-  color: orange !important;
-text-decoration: underline;
-}
-.side-menu__title{
+
+.side-menu__title {
     margin-bottom: 30px;
-    
 }
-.side-menu__list li{
+.side-menu__list li {
     margin-bottom: 15px;
 }
-
-/* FIX*/
-
-
-
-
-
-
-
-
+/**************************************************/
+.Event{
+    min-height: 984px;
+    background: #FFC41E;
+}
+.News{
+    min-height: 649px;
+    background: #FAF3E3;
+}
+.Footer{
+    min-height: 476px;
+    background:  #30BCC9;
+}
 
 
 
