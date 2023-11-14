@@ -1,0 +1,11 @@
+.Cir{
+    border-radius: 200px;
+ 
+    background:radial-gradient(rgb(217, 221, 160) 5%,white 5% 15%,rgb(0, 217, 255) 15% 30%,purple 30%,rgb(223, 103, 103)) ;
+
+height: 300px;
+width: 300px;
+
+
+
+}

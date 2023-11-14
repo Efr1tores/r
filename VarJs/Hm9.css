@@ -1,0 +1,14 @@
+.circle__form {
+    background: plum;
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+}
+
+.table-rating {
+    background: purple;
+    border-radius: 65%;
+    width: 300px;
+    height: 300px;
+
+}
