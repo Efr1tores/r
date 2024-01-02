@@ -42,9 +42,7 @@ function showNextSlide() { stopSlide(); nextSlied(); }
 
 function showPrevSlides() { stopSlide(); slideReset(); 
     currentSlide= (currentSlide==0)?slides.length-1:currentSlide-1;
-    slideSet(); }
-
-
+    slideSet(); //ggg
 continueSlideInterval();
 Slider.addEventListener('mouseover', stopSlide);
 Slider.addEventListener('mouseout', continueSlideInterval);
