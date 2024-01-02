@@ -5,16 +5,16 @@
 
 }
 
-ol, ul, li {
+ul,ol,li {
     list-style: none;
 }
 
-.slider__slides, .slider {
+.slider ,.slider__slides{
     position: relative;
 
 }
 
-.slider__slide, .slider__arrow {
+.slider__slide, .slider__arrow, .slider__radio{
     position: absolute;
 
 
@@ -55,10 +55,10 @@ ol, ul, li {
 .slider__arrow{
     display: block;
     top: 0;
-    height: 30px;
-    width: 100%;
+    width: 30px;
+    height: 100%;
     cursor: pointer;
-    background: rgb(0, 162, 255)(124, 60, 60);
+    background: rgb(0, 162, 255);
     border-radius: 100%;
     z-index: 3;
     transition: .4s;
@@ -73,4 +73,11 @@ ol, ul, li {
 }
 .slider__arrow_next{
     right: 0;
+}
+.slider__radio{
+    bottom: 20px;
+    left: 0;
+    z-index: 3; 
+    text-align: center;
+    width: 100%;
 }
