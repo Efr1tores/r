@@ -11,6 +11,11 @@ const toggleRadio = document.getElementById('toggle_radio');
 
 const toggleInput = toggleRadio.querySelectorAll('input');
 
+
+const slideSmin=document.getElementById('slides-mean');
+
+const slideMean=slideSmin.querySelectorAll('slider__itam')
+
 let currentSlide = 0;
 
 
@@ -33,16 +38,23 @@ function continueSlideInterval() {
 }
 function stopSlide() { clearInterval(slideInterval); }
 
-function slideReset() { slides[currentSlide].classList.remove('slider__slide_showing'); }
+function slideReset() { slides[currentSlide].classList.remove('slider__slide_showing');
+/*slideMean[currentSlide].classList.remove('slider__itam-showing');*/
+}
 
 function slideSet() { slides[currentSlide].classList.add('slider__slide_showing');
- toggleInput[currentSlide].checked=true};
+ toggleInput[currentSlide].checked=true;
+ if(slideMean){slideMean[currentSlide].classList.add('slider__itam-showing');}
+ /*
+slideMean[currentSlide].classList.add('slider__itam-showing');*/
+else{console.error('nothink ')}
+};
 
 function showNextSlide() { stopSlide(); nextSlied(); }
 
 function showPrevSlides() { stopSlide(); slideReset(); 
     currentSlide= (currentSlide==0)?slides.length-1:currentSlide-1;
-    slideSet(); //ggg
+    slideSet();} //ggg
 continueSlideInterval();
 Slider.addEventListener('mouseover', stopSlide);
 Slider.addEventListener('mouseout', continueSlideInterval);
@@ -55,3 +67,4 @@ slideSet();
 
 }
 toggleRadio.addEventListener('input',toggleSlide);
+

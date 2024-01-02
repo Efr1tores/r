@@ -75,9 +75,24 @@ ul,ol,li {
     right: 0;
 }
 .slider__radio{
-    bottom: 20px;
+    bottom: -100px;
     left: 0;
     z-index: 3; 
     text-align: center;
     width: 100%;
+}
+.slider__mean{
+    margin: 20px 0;
+    display: flex;
+    gap: 5px;
+}
+.slider__itam img{
+    width: 100%;
+    height: 60px;
+}
+.slider__itam-showing{
+    box-shadow: 0 0 15px 5px orangered;
+}
+.slider__itam{
+    font-size: 0;
 }
